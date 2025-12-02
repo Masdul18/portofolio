@@ -1,12 +1,313 @@
+/* font */
+/* roboto  karo mea culpa*/
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* hurricane */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+/* monstertcrot */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* warna wirni */
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap');
+/* judul */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* au */
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#halo {
+    scroll-margin-top: 6rem;
+}
+
+#project {
+    scroll-margin-top: 6rem;
+}
+
+/* kepala */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #787a915f;;
+    align-items: center;
+    height: 50px;
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #dddddd7e;
+    width: 100%;
+    /* margin-bottom: 40px; */
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+header h1 {
+    color: aliceblue;
+}
+
+header .img.header{
+    height: auto;
+    width: 50px;
+    margin-left: 50px;
+}
+
+
+
+/* main */
+main p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+
+/* halo */
+.container-halo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    height: 450px;
+}
+
+.container-halo h2 {
+    color: #F12D2D;
+    font-family: "Hurricane", cursive;
+    font-size: 70px;
+}
+
+/* kenalan */
+.container-kenalan {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    /* margin: 10px; */
+    height: 400px;
+}
+
+.container-kenalan h2 {
+    color: #251B37;
+    font-size: 48px;
+    font-family: "Hurricane", cursive;
+    margin: 15px;
+}
+
+.kenalan {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.kenalan p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.img.halo {
+    width: 200px;
+    border-radius: 20px;
+    border: 10px double #251B37;
+}
+
+/* apa aja */
+
+
+
+
+/* kontener card */
+.container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: aliceblue; */
+}
+
+.container-card h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #251B37;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #251B37;
+    padding: 20px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+footer .ha-container {
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+footer p {
+    color: #FFECEF;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+
+footer a {
+    color: #F12D2D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+footer h3 {
+    color: #FFECEF;
+    font-family: "Hurricane", cursive;
+    font-size: 48px;
+}
+
+
+.img.ikon {
+    width: 50px;
+}
+
+.img.ikon:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+
+
+
+/* bla */
 .img {
-    width: 100px;
+    width: 150px;
+}
+
+.img.JS {
+    max-height: 150px;
+    border-radius: 8px;
+}
+
+.img.JS:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 6px 9px -1px #372948;
 }
 
 .card {
-    background-color: aliceblue;
+    border: 2px solid #372948;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 8px;
+    background-color: whitesmoke;
 }
 
 .card:hover {
     transform: scale(1.1);
-    transition: 1s;
+    transition: 0.5s;
+    box-shadow: 0px 6px 9px -1px #372948;
 }
+
+
+.udah-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+}
+
+.a-JS {
+    color: #0F044C;
+    text-decoration: none;
+    font-family: "Homenaje", sans-serif;
+     
+}
+
+.a-JS:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #F12D2D;
+}
+
+/* menghitam !! */
+
+body.dark {
+    background-color: #251B37;
+}
+
+
+
+
+
+
+
+
+
+
