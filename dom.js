@@ -7,15 +7,46 @@ let udah = [
         deskrpsi:"saya belajar ini baru pertama kali, dimulai dari dasar, yaitu HTML, kemudian CSS, lalu jS",
     },
     {
+        title:"capcut",
+        image:"./img/cacat.png",
+        deskrpsi:"aplikasi pengeditan video serbaguna yang populer untuk membuat konten media sosial seperti TikTok, Reels Instagram, dan YouTube",
+    },
+    {
+        title:"canva",
+        image:"./img/kapak.png",
+        deskrpsi:"platform desain grafis online yang memungkinkan pengguna membuat berbagai konten visual, seperti poster, presentasi, dan postingan media sosial, dengan mudah meskipun tidak memiliki pengalaman desain",
+    },
+    {
+        title:"Figma",
+        image:"./img/sigma.png",
+        deskrpsi:"platform desain berbasis web yang populer untuk kolaborasi, memungkinkan pengguna membuat desain antarmuka pengguna (UI), prototipe, dan diagram secara bersama-sama",
+    },
+    {
+        title: "Tahfidz",
+        image:"./img/quran.png",
+        deskrpsi:"saya menghafal quran dimulai dari juz 30 hingga 26 lalu dari juz 1 hingga 5",
+    },
+    {
         title:"Bahasa Inggris",
         image:"./img/—Pngtree—british flag_2536383.png",
-        deskrpsi:"saya belajar bahasa inggris mulai dari vocabbulary, grammar, speaking yang mana semuanya dimulai dari 0 🗿?",
+        deskrpsi:"saya belajar bahasa inggris mulai dari vocabbulary, grammar, speaking yang mana semuanya dimulai dari 0",
+    },
+    {
+        title: "Bahasa arab",
+        image: "./img/alngapakngiyatu.png",
+        deskrpsi: "dengan buku bayna yadaik ini saya belajar bahasa arab mulai dari dasar",
     },
     {
         title:"Mutun Jurumiah",
         image:"./img/jurum.jpeg",
         deskrpsi:"di buku ini saya menghafal beberapa i'rob, lalu dipraktekkan kedalam beberapa ayat alqur'an.",
     },
+    {
+        title: "Tahajji",
+        image: "./img/tahajji.png",
+        deskrpsi: "buku ini menjelaskan bagaimana cara melafalkan huruf-huruf hijaiyah secara satu persatu sampe suara gw abis anjir",
+    },
+
 ]
 
 for (let i = 0; i < udah.length; i++) {
@@ -30,7 +61,7 @@ for (let i = 0; i < udah.length; i++) {
     let image = document.createElement("img");
     image.src = udahlagi.image;
     image.alt = udahlagi.title;
-    image.className = "img";
+    image.className = "img JS";
 
     let deskrpsi = document.createElement("p");
     deskrpsi.textContent = udahlagi.deskrpsi;
