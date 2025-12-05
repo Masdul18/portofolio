@@ -65,11 +65,12 @@ header {
 header a {
     text-decoration: none;
     color: black;
+    transition: 0.5s ease-in-out;
 }
 
 header a:hover {
     color: blue;
-    transition: 0.5s;
+
 }
 
 header h1 {
@@ -213,11 +214,12 @@ footer a {
     color: #F12D2D;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+    transition:  1s ease-in-out;
 }
 
 footer a:hover {
     transform: scale(1.1);
-    transition: 1s;
+
 }
 
 footer h3 {
@@ -229,11 +231,13 @@ footer h3 {
 
 .img.ikon {
     width: 50px;
+    transition: 1s ease-in-out;
 }
+
 
 .img.ikon:hover {
     transform: scale(1.2);
-    transition: 1s;
+
 }
 
 
@@ -249,11 +253,11 @@ footer h3 {
     max-height: 150px;
     max-width: 100px;
     border-radius: 8px;
+    transition: 0.3s ease-in-out;
 }
 
 .img.JS:hover {
     transform: scale(1.2);
-    transition: 0.5s ease-in-out;
     box-shadow: 0px 6px 9px -1px #372948;
 }
 
@@ -269,11 +273,11 @@ footer h3 {
     /* margin: 10px; */
     border-radius: 8px;
     background-color: whitesmoke;
+    transition: 0.5s ease-in-out;
 }
 
 .card:hover {
     transform: scale(1.1);
-    transition: 0.5s;
     box-shadow: 0px 6px 9px -1px #372948;
 }
 
@@ -288,12 +292,12 @@ footer h3 {
     color: #0F044C;
     text-decoration: none;
     font-family: "Homenaje", sans-serif;
-     
+    transition: 0.5s;
 }
 
 .a-JS:hover {
     transform: scale(1.1);
-    transition: 0.5s;
+
     color: #F12D2D;
 }
 

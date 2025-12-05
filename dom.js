@@ -46,6 +46,11 @@ let udah = [
         image: "./img/tahajji.png",
         deskrpsi: "buku ini menjelaskan bagaimana cara melafalkan huruf-huruf hijaiyah secara satu persatu sampe suara gw abis anjir",
     },
+    {
+        title: "RuangGuru",
+        image: "./img/ruanggoro.jpg",
+        deskrpsi: "platform buat gantiin pembelajaran umum dengan kurikulum merdeka",
+    },
 
 ]
 
